@@ -1,0 +1,10 @@
+[root@localhost practica2.3]# renice 12 -p $$
+2318 (process ID) old priority 0, new priority 12
+[root@localhost practica2.3]# chrt -f -p 12 $$
+[root@localhost practica2.3]# gcc ejercicio2.c -o ejercicio2
+[root@localhost practica2.3]# ./ejercicio2 
+Scheduler: Fifo
+Prio: 12
+Range of priority: 99 - 1 
+
+Respuesta: Si se heredan los atributos de planificación.
