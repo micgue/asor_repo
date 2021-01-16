@@ -1,0 +1,17 @@
+[root@localhost practica2.3]# ./ejercicio12
+^C
+^C
+^C
+^C
+^Z
+^Z
+^Z
+^Z
+^Z
+^Z
+^Z
+^Z
+^Z
+^Z
+Señales SIGINT = 4.
+Señales SIGTSTP = 10.
