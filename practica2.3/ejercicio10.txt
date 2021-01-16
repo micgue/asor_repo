@@ -1,0 +1,16 @@
+terminal1:
+[cursoredes@localhost ~]$ sleep 600
+Terminated
+[cursoredes@localhost ~]$ sleep 600
+Quit (core dumped)
+
+terminal2:
+-averiguar pid del proceso del terminal 2:
+[cursoredes@localhost ~]$ ps axu
+...
+cursore+ 10753  0.0  0.0 107948   352 pts/3    S+   18:10   0:00 sleep 600
+...
+
+[root@localhost practica2.3]# kill 10753
+[root@localhost practica2.3]# kill -s SIGQUIT 10852
+
