@@ -1,0 +1,2 @@
+¿En qué casos se imprime la cadena? ¿Por qué? 
+Solo se imprime cuando se usa system porque ejecuta la instrucción en el espacio de la shell, sin embargo execvp la reemplaza por el nuevo programa lo que causa que no se imprima la cadena. 
