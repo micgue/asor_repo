@@ -1,0 +1,6 @@
+
+¿Qué sucede si el proceso padre termina antes que el hijo (observar el PPID del proceso hijo)?
+El proceso hijo queda "huerfano" y es "adoptado" por la shell es decir que el ppid pasa a ser el de la shell. 
+ ¿Y si el proceso que termina antes es el hijo (observar el estado del proceso hijo con ps)?
+Tiene el funcionamiento correcto, termina el hijo y luego el padre. 
+
